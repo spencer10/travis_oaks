@@ -1,0 +1,737 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono:400,500,700&display=swap');
+
+
+/* HIDES UNWANTED TEXT FOR TEMPERATURE */
+div.dark-sky-link {
+    display: none;
+}
+/* HOME PAGE STYLES */
+
+main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 1700px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+header#head1 {
+    border-radius: 8px;
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: rgb(68, 68, 85);
+}
+.logo {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    font-family: Comfortaa;
+    font-size: 50px;
+    margin-bottom: 6px;
+}
+
+/* FONT AWESONE MEDIA ICONS */
+
+header#head1 ul#media-icons {
+    list-style-type: none;
+    width: 500px;
+    float: right;
+}
+header#head1 ul#media-icons li {
+    float: left;
+    font-family: Roboto;
+    font-size: 16px;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+}
+
+header#head1 ul#media-icons li > a:hover {
+    color: #ffffff;
+}
+
+header#head1 ul#media-icons li:nth-of-type(5) {
+    border-right: unset;
+}
+header#head1 ul#media-icons li:nth-of-type(6) {
+    border-right: unset;
+    font-size: 20px;
+}
+
+header#head1 .underLogo {
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: Comfortaa;
+    color: white;
+}
+a {
+	color: grey;
+    text-decoration: none;
+} 
+/* HERO IMAGE */
+
+  div#hero {
+      width: 100%;
+      height: 560px;
+      background-image: url(marquis.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-clip: content-box;
+      background-position: center;
+      border-radius: 8px;
+  }
+  /* UPDATES SECTION */
+
+  section#announcements {
+      width: 94%;
+      height:500px;
+      padding-left: 3%;
+      padding-right: 3%;
+      background-color: rgba(238, 232, 232, 0.856);
+      border-radius: 8px;
+  }
+
+  section#announcements figure:nth-of-type(1) {
+      float: left;
+      width: 65%;
+      height: 202px;
+      margin: 0;
+      margin-right: 2%;
+      margin-top: 32px;
+      background-color: whitesmoke;
+      border-radius: 8px;
+  }
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
+  width: 70%;
+  height: 180px;
+  float: left;
+  font-family: Roboto;
+
+}
+
+h3#welcome {
+    margin-top: 36px;
+    padding-left: 5%;
+}
+
+p#location {
+    margin-left: 5%;
+}
+
+p#g6 {
+    padding-left: 25px;
+}
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
+  width: 26%;
+  height: 159px;
+  float: right;
+  margin-top: 20px;
+  border-left: 3px solid rgba(169, 169, 169, 0.356);
+  font-family: Roboto; 
+}
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
+  list-style-type: none;
+
+}
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
+  margin-left: -18px;
+  margin-top: 30px;
+  font-size: 18px;
+  text-decoration: underline;
+  
+}
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
+  margin-left: -15px;
+  font-size: 16px;
+  
+}
+
+section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
+  margin-left: -15px;
+  font-size: 16px;
+  
+}
+
+section#announcements figure:nth-of-type(2) {
+      float: left;
+      width: 31%;
+      height: 202px;
+      margin: 0;
+      margin-top: 32px;
+      background-color: rgba(238, 232, 232, 0.856);
+      border-radius: 8px;
+  }
+section#announcements figure:nth-of-type(3) {
+    float: left;
+    width: 31%;
+    height: 203px;
+    margin-right: 2%;
+    margin-left: 0;
+    margin-top: 30px;
+    background-image: url(soCo-improvements.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+    border-radius: 8px;
+  }
+  
+section#announcements figure:nth-of-type(4) {
+    float: left;
+    width: 65%;
+    height: 203px;
+    margin: 0;
+    margin-right: 0%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+  }
+  
+.announce {
+    margin-left: 5px;
+    font-family: Roboto;
+ }
+.improved {
+    height: 20px;
+    font-family: Roboto;
+    font-size: 19px;
+ }
+.date {
+    height: 14px;
+    font-family: Roboto;
+    font-size: 13px;
+ }
+  .content {
+    font-family: Roboto;
+}
+ 
+/* LANDSCAPE PHOTO SECTION */
+
+  section#landScapes {
+    padding-top: 9px;
+    width: 100%;
+    height: 429px;
+    background-color: rgba(96, 121, 97, 0.767);
+    border-radius: 8px;
+  }
+
+  div#landScapeBlock {
+      margin: auto;
+      width: 100%;
+      height: 550px;
+      clear: both;
+  }
+  
+  div#landScapeBlock div:nth-of-type(1) {
+    float: left;
+    width: 28%;
+    height: 350px;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 35px;
+    border-radius: 8px;
+    background-image: url(enter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+div#landScapeBlock div:nth-of-type(2) {
+    float: left;
+    width: 28%;
+    height: 350px;
+    margin-right: 4%;
+    margin-top: 35px;
+    border-radius: 8px;
+    background-image: url(pool2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+div#landScapeBlock div:nth-of-type(3) {
+    float: left;
+    width: 28%;
+    height: 350px;
+    margin-right: 4%;
+    margin-top: 35px;
+    border-radius: 8px;
+    background-image: url(exit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+
+/* FOOTER */
+
+.foot {
+    color: silver;
+    font-size: 17px;
+    font-family: Roboto Mono;
+    margin-top: 20px;
+}
+
+/* FAQS PAGE STYLES */
+
+main#faq-main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 1350px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+div#faq-info {
+    width: 100%;
+    height: 1110px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#faq-info div:nth-of-type(1) {
+    float: left;
+    width: 55%;
+    height: 1050px;
+    margin-top: 30px;
+    margin-left: 1.25%;
+    background-color: whitesmoke;
+    /* text-align: center; */
+    font-family: Roboto;
+    border-radius: 8px;
+}
+h2#faq-title {
+    width: 25%;
+    padding-left: 15px;
+}
+.find-answers {
+    padding-left: 15px;
+}
+ul#list-faqs {
+    padding-left: 29px;
+    padding-right: 20px;
+}
+div#faq-info div:nth-of-type(2) {
+    float: left;
+    width: 41%;
+    height: 1050px;
+    margin-top: 30px;
+    margin-left: 1.25%;
+    background-image: url(morePalm.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+    border-radius: 8px;
+}
+
+/* UPDATES PAGE STYLES */
+
+main#update-main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 1950px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+div#update1-info {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#update1-info div:nth-of-type(1) {
+    float: left;
+    width: 30%;
+    height: 275px;
+    margin-top: 14px;
+    margin-left: 1.25%;
+    background-image: url(soCo-improvements.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+    border-radius: 8px;
+}
+div#update1-info div:nth-of-type(2) {
+    float: right;
+    width: 66%;
+    height: 275px;
+    margin-top: 14px;
+    margin-right: 1.25%;
+    background-color: whitesmoke;
+    /* text-align: center; */
+    font-family: Roboto;
+    border-radius: 8px;
+}
+.update-title {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 20px;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 19px;
+ }
+.update-date {
+    /* margin-top: -10px; */
+    margin-left: 10px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 13px;
+ }
+.update-content {
+    margin-left: 10px;
+    font-family: Roboto;
+}
+div#update2-info {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#update2-info div:nth-of-type(1) {
+    float: left;
+    width: 30%;
+    height: 275px;
+    margin-top: 14px;
+    margin-left: 1.25%;
+    background-image: url(pool1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+    border-radius: 8px;
+}
+div#update2-info div:nth-of-type(2) {
+    float: right;
+    width: 66%;
+    height: 275px;
+    margin-top: 14px;
+    margin-right: 1.25%;
+    background-color: whitesmoke;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+div#update3-info {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#update3-info div:nth-of-type(1) {
+    float: left;
+    width: 97.5%;
+    height: 275px;
+    margin-top: 14px;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+div#update4-info {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#update4-info div:nth-of-type(1) {
+    float: left;
+    width: 97.5%;
+    height: 275px;
+    margin-top: 14px;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    background-color: whitesmoke;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+div#update5-info {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(181, 201, 180);
+    border-radius: 8px;
+}
+div#update5-info div:nth-of-type(1) {
+    float: left;
+    width: 97.5%;
+    height: 275px;
+    margin-top: 14px;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    background-color: whitesmoke;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+
+/* HOA AND MGMT STYLES */
+
+main#mgmt-main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 1950px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+div#mgmt-info {
+    width: 100%;
+    height: 1300px;
+    background-color: grey;
+    border-radius: 8px;
+}
+div#mgmt-info div:nth-of-type(1) {
+    float: left;
+    width: 80%;
+    height: 1240px;
+    margin-top: 30px;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+.mgmt-para {
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+section#mgmt-landScapes {
+    padding-top: 9px;
+    width: 100%;
+    height: 429px;
+    background-color: rgba(96, 121, 97, 0.767);
+    border-radius: 8px;
+}
+div#mgmt-landScapeBlock {
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    clear: both;
+}
+div#mgmt-landScapeBlock div:nth-of-type(1) {
+    float: left;
+    width: 44%;
+    height: 350px;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 8px;
+    background-image: url(northEast.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+}
+div#mgmt-landScapeBlock div:nth-of-type(2) {
+    float: left;
+    width: 44%;
+    height: 350px;
+    margin-right: 4%;
+    border-radius: 8px;
+    background-image: url(northWest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+}
+
+/* CONTACT PAGE STYLES */
+
+main#contact-main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+section#contact {
+    height:500px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: rgba(238, 232, 232, 0.856);
+    border-radius: 8px;
+}
+section#contact figure:nth-of-type(1) {
+    float: left;
+    width: 30%;
+    height: 410px;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 8px;
+  }
+  section#contact figure:nth-of-type(2) {
+    float: left;
+    width: 30%;
+    height: 410px;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  section#contact figure:nth-of-type(3) {
+    float: right;
+    width: 30%;
+    height: 410px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .contact1 {
+      font-family: Roboto;
+      color: rgba(0, 0, 0, 0.555);
+  }
+  .title-placement1 {
+      margin-top: 50px;
+      text-decoration: underline;
+      font-family: Roboto;
+      font-size: 22px;
+  }
+  .action {
+      font-size: 16px;
+      font-family: Roboto;
+      color: rgba(0, 0, 255, 0.795);
+  }
+  .contact2 {
+      font-family: Roboto;
+      color: rgba(0, 0, 0, 0.555);
+  }
+  .title-placement2 {
+    margin-top: 50px;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 22px;
+}
+p#questions {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+  .title-placement3 {
+    margin-top: 120px;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 22px;
+  }
+  .fa-phone {
+      margin-top: 20px;
+      font-size: 18px !important;
+      color: crimson;
+  }
+  .fa-envelope {
+      font-size: 18px !important;
+      color: crimson;
+  }
+  .fa-globe {
+      font-size: 18px !important;
+      color: crimson;
+  }
+  section#map-border {
+      padding-top: 9px;
+      width: 100%;
+      height: 545px;
+      background-color: rgba(96, 121, 97, 0.767);
+      border-radius: 8px;
+  }
+  .maps {
+      margin-left: 2.5%;
+      margin-top: 25px;
+      border-radius: 8px;
+  }
+
+  /* PROPERTY PAGE STYLES */
+
+main#property {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+section#list-maps {
+      width: 94%;
+      height:590px;
+      padding-left: 3%;
+      padding-right: 3%;
+      background-color: rgba(100, 30, 30, 0.521);
+      border-radius: 8px;
+}
+section#list-maps figure:nth-of-type(1) {
+    float: left;
+    width: 100%;
+    height: 520px;
+    margin-top: 30px;
+    margin-left: .25%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 8px;
+}
+h3#title-maps {
+    margin-top: 40px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.651);
+}
+ul#docs {
+    margin-left: -3%;
+}
+h3#deeds {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+/* PARKING AND STORAGE PAGE STYLES */
+
+main#parkingStorage {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 4580px;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+section#parking-storage {
+    width: 94%;
+    height: 4360px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgba(174, 194, 211, 0.966);
+    border-radius: 8px;
+}
+section#parking-storage figure:nth-of-type(1) {
+    float: left;
+    width: 100%;
+    height: 4290px;
+    margin-top: 30px;
+    margin-left: .25%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 8px;
+}
