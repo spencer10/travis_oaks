@@ -1,0 +1,371 @@
+$screen-xs-min: 300px
+$screen-sm-min: 400px
+$screen-md-min: 800px
+$tablet-width: 768px
+$screen-lg-min: 1800px
+$desktop-width: 1200px
+$slider-style: 1023px
+$slider-style2: 990px
+$build-bar-tablet: 1311px
+
+$grid-float-breakpoint: $screen-lg-min
+
+$grid-breakpoints: (xxs: 0), (sm: 544px), (sm: 544px), (sm: 544px), (md: 768px), (lg: 992px), (xl: 1200px), (xxl: 1500px) !default
+
+$container-max-widths: (xxs: 375px), (xs: 375px), (sm: 544px), (md: 768px), (lg: 992px), (xl: 1200px) !default
+
+@import "compass/css3"
+
+@mixin resize
+    @media (max-width: #{$desktop-width + 100px})
+        @content
+
+@mixin desktop
+    @media (min-width: #{$screen-lg-min})
+        @content
+
+@mixin laptop
+    @media (min-width: #{$desktop-width}) and (max-width: #{$screen-lg-min})
+        @content
+
+@mixin tablet
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px})
+        @content
+
+@mixin phone
+    @media (min-width: #{$screen-sm-min + 13}) and (max-width: #{$tablet-width - 1px})
+        @content
+
+@mixin handheld
+    @media (max-width: #{$screen-sm-min + 12})
+        @content
+
+
+@keyframes move-up
+    0%
+        transform: translate(0, 0px) scale(1)
+    50%
+        transform: translate(0, -3px) scale(1.01)
+    100%
+        transform: translate(0, 0px) scale(1)
+
+
+div#dealer-info-banner
+    background-image: url("../uploads/cms/dealer-info-hero.jpg")
+    background-size: cover
+    height: 600px
+    background-repeat: no-repeat
+    div.banner-container
+        position: relative
+        width: 80%
+        margin: 0 auto
+        top: 200px
+        text-align: center
+        color: #ffffff
+        @include tablet
+            top: 100px
+        @include phone
+            width: 95%
+            top: 100px
+        @include handheld
+            width: 95%
+            top: 100px
+        h1
+            font-size: 100px
+            font-weight: 900
+            text-transform: uppercase
+            letter-spacing: 1px
+            @include tablet
+                font-size: 90px
+            @include phone
+                font-size: 60px
+            @include handheld
+                font-size: 60px
+        p
+            font-size: 24px
+            font-weight: 100
+            @include phone
+                font-size: 20px
+            @include handheld
+                font-size: 20px
+
+div#featured-container
+    div.top-section
+        background-color: #F8F8F8
+        padding-top: 80px
+        text-align: center
+        color: #363636
+        h2
+            font-size: 50px
+            letter-spacing: 2px
+            font-weight: 900
+            text-transform: uppercase
+            @include tablet
+                font-size: 40px
+            @include phone
+                font-size: 40px
+            @include handheld
+                font-size: 40px
+        span
+            letter-spacing: 1px
+            font-weight: 100
+
+
+    > ul.logos
+        background-color: #F8F8F8
+        list-style-type: none
+        height: 600px
+        margin: 0
+        padding: 80px 150px 100px 150px
+        @include laptop
+            padding: 80px
+            height: 550px
+        @include tablet
+            height: 880px
+        @include phone
+            height: 1700px
+            padding: 20px 10% 0 10%
+        @include handheld
+            height: 1600px
+            padding: 20px 10% 0 10%
+
+        li
+            position: relative
+            float: left
+            background-color: #ffffff
+            border: 1px solid #000000
+            border-radius: 10px
+            text-align: center
+            width: 21.25%
+            height: 90%
+            margin-right: 5%
+            &:hover
+                cursor: pointer
+            @include tablet
+                float: left
+                width: 45%
+                height: 300px
+                margin-right: 10%
+            @include phone
+                width: 100%
+                height: 360px
+                margin-right: 0
+                margin-top: 40px
+            @include handheld
+                width: 100%
+                height: 340px
+                margin-right: 0
+                margin-top: 40px
+
+            h3
+                border-radius: 10px 10px 0 0
+                background-color: #303030
+                color: #ffffff
+                font-weight: bold
+                font-size: 18px
+                letter-spacing: 1px
+                text-transform: uppercase
+                text-align: left
+                padding: 17px 0 17px 30px
+            p.dealer-copy
+                display: none
+                width: 100%
+                height: 200px
+                color: #303030
+                padding: 20% 10% 0 10%
+                border-radius: 5px
+                // background-color: rgba(211,211,211,0.5)
+                @include laptop
+                    padding: 50px
+            a
+                display: block
+                margin-top: 40px
+                img
+                    width: 80%
+            a:nth-of-type(2)
+                position: absolute
+                bottom: 20px
+                right: 7%
+                font-size: 14px
+                font-weight: 300
+                text-transform: uppercase
+                i
+                    margin-left: 10px
+        li:nth-of-type(2)
+            @include tablet
+                margin-right: 0
+        li:nth-of-type(3)
+            @include tablet
+                float: left
+                clear: left
+                margin-top: 80px
+        li:nth-last-of-type(1) 
+            margin-right: 0
+            float: right
+            @include tablet
+                float: left
+                margin-top: 80px
+
+div#dealer-container
+    div.top-section
+        padding-top: 80px
+        text-align: center
+        color: #363636
+        h2
+            font-size: 50px
+            letter-spacing: 2px
+            font-weight: 900
+            text-transform: uppercase
+            @include tablet
+                font-size: 40px
+            @include phone
+                font-size: 35px
+            @include handheld
+                font-size: 30px
+        span
+            letter-spacing: 1px
+            font-weight: 100
+            font-size: 22px
+            @include phone
+                font-size: 20px
+            @include handheld
+                font-size: 20px
+    > ul.logos
+        list-style-type: none
+        padding: 40px 200px 100px 200px
+        margin: 0
+        clear: both
+        @include tablet
+            padding: 40px 100px 0 100px
+        @include phone
+            padding: 20px 15% 0 15%
+        @include handheld
+            padding: 20px 15% 0 15%
+
+        @include phone
+            text-align: center
+        @include handheld
+            text-align: center
+        li
+            float: left
+            width: 21.25%
+            height: 200px
+            margin-right: 5%
+            margin-bottom: 20px
+            &:hover
+                cursor: pointer
+                animation: move-up 300ms ease-in-out
+                -webkit-animation: move-up 300ms ease-in-out
+            a img
+                width: 100%
+            @include phone
+                width: 100%
+                margin-right: 0
+                margin-top: 40px
+            @include handheld
+                width: 100%
+                margin-right: 0
+                margin-top: 40px
+        li:nth-of-type(4n+0)
+            margin-right: 0
+        li:nth-last-of-type(1)
+            margin-bottom: 100px
+
+div#dealer-interest
+    background-image: url("../uploads/cms/dealer-info-shake-hand-1.jpg")
+    background-size: cover
+    clear: both
+    height: 500px
+    background-repeat: no-repeat
+    @include phone
+        height: 600px
+    @include handheld
+        height: 600px
+    
+    div.banner-container
+        position: relative
+        width: 900px
+        margin: 0 auto
+        top: 100px
+        text-align: center
+        color: #ffffff
+        @include tablet
+            width: 90%
+        @include phone
+            width: auto
+        @include handheld
+            width: auto
+        h2
+            font-size: 50px
+            font-weight: 900
+            text-transform: uppercase
+            letter-spacing: 1px
+            @include tablet
+                font-size: 40px
+            @include phone
+                font-size: 35px
+            @include handheld
+                font-size: 30px
+        p
+            font-size: 22px
+            font-weight: 100
+            margin-top: 20px
+            @include phone
+                font-size: 20px
+            @include handheld
+                font-size: 20px
+        a
+            display: block
+            text-decoration: none
+            border-radius: 5px
+            font-size: 22px
+            font-weight: 700
+            width: 330px
+            padding: 25px 0 25px 0
+            margin-top: 120px
+            @include tablet
+                width: 250px
+                padding: 20px 0 20px 0
+            @include phone
+                margin: 0 auto
+            @include handheld
+                margin: 0 auto
+
+        a:nth-of-type(1)
+            float: left
+            background-color: #FF3000
+            border: 1px solid #FF3000
+            color: #ffffff
+            margin-left: 80px
+            @include phone
+                float: unset
+                margin-top: 40px
+                margin-left: auto
+            @include handheld
+                float: unset
+                margin-top: 40px
+                margin-left: auto
+            &:hover
+                background-color: unset
+                border: 1px solid #FF3000
+                color: #FF3000
+
+        a:nth-of-type(2)
+            float: right
+            border: 1px solid #FF3000
+            color: red
+            margin-right: 80px
+            @include phone
+                float: unset
+                margin-top: 40px
+                margin-right: auto
+            @include handheld
+                float: unset
+                margin-top: 40px
+                margin-right: auto
+            &:hover
+                background-color: #FF3000
+                color: #ffffff
+
+div.newsletter
+    clear: both

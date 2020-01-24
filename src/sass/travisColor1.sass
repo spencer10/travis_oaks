@@ -1,0 +1,2041 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap')
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap')
+
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed:400,500,700&display=swap')
+
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono:400,500,700&display=swap')
+
+body
+  background-color: rgba(0, 0, 0, 0.616)
+
+/* HOME PAGE STYLES
+
+main
+  padding-bottom: 150px
+  width: 85%
+  margin: 0 auto
+  height: 1700px
+
+header
+  &#head1
+    border-radius: 8px
+    width: 100%
+    height: 150px
+    color: white
+    background-color: rgb(68, 68, 85)
+
+  &#mobile-head1
+    display: none
+
+.logo
+  width: 40%
+  float: left
+  margin-left: 10%
+  font-family: Comfortaa
+  font-size: 50px
+  margin-bottom: 6px
+
+/* FONT AWESONE MEDIA ICONS
+
+header#head1
+  ul#media-icons
+    list-style-type: none
+    width: 530px
+    float: right
+
+    li
+      float: left
+      font-family: Roboto
+      font-size: 16px
+      border-right: 1px solid white
+      padding: 0 10px 0 10px
+
+      > a:hover
+        color: #ffffff
+        text-decoration: underline
+
+      &:nth-of-type(5)
+        border-right: unset
+
+      &:nth-of-type(6)
+        border-right: unset
+        font-size: 20px
+
+  .underLogo
+    width: 40%
+    margin-left: 10%
+    margin-bottom: 10px
+    font-family: Comfortaa
+    color: white
+
+a
+  color: grey
+  text-decoration: none
+
+*
+  box-sizing: border-box
+
+/* Slideshow container
+
+.slideshow-container
+  position: relative
+  margin: auto
+  width: 100%
+  height: 560px
+  border-radius: 8px
+
+.mobile-slideshow-container
+  display: none
+
+/* Hide the images by default
+
+.mySlides
+  display: none
+  width: 100%
+  height: 560px
+  border-radius: 8px
+
+/* Next & previous buttons
+
+.prev
+  cursor: pointer
+  position: absolute
+  top: 50%
+  width: auto
+  margin-top: -22px
+  padding: 16px
+  color: white
+  font-weight: bold
+  font-size: 18px
+  transition: 0.6s ease
+  border-radius: 0 3px 3px 0
+  user-select: none
+
+.next
+  cursor: pointer
+  position: absolute
+  top: 50%
+  width: auto
+  margin-top: -22px
+  padding: 16px
+  color: white
+  font-weight: bold
+  font-size: 18px
+  transition: 0.6s ease
+  border-radius: 0 3px 3px 0
+  user-select: none
+  right: 0
+  border-radius: 3px 0 0 3px
+
+/* Position the "next button" to the right
+
+/* On hover, add a black background color with a little bit see-through
+
+.prev:hover, .next:hover
+  background-color: rgba(0, 0, 0, 0.8)
+
+/* Caption text
+
+.text
+  color: #f2f2f2
+  font-size: 15px
+  padding: 8px 12px
+  position: absolute
+  bottom: 8px
+  width: 100%
+  text-align: center
+
+.active, .dot:hover
+  background-color: #717171
+
+/* Fading animation
+
+.fade
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 1.5s
+  animation-name: fade
+  animation-duration: 1.5s
+
+@-webkit-keyframes fade
+  from
+    opacity: .4
+
+  to
+    opacity: 1
+
+@keyframes fade
+  from
+    opacity: .4
+
+  to
+    opacity: 1
+
+/* UPDATES SECTION
+
+section#announcements
+  width: 100%
+  height: 500px
+  padding-left: 3%
+  padding-right: 3%
+  background-color: rgba(238, 232, 232, 0.856)
+  border-radius: 8px
+
+  figure:nth-of-type(1)
+    float: left
+    width: 65%
+    height: 202px
+    margin: 0
+    margin-right: 2%
+    margin-top: 32px
+    background-color: whitesmoke
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      width: 70%
+      height: 180px
+      float: left
+      font-family: Roboto
+
+h3#welcome
+  margin-top: 36px
+  padding-left: 5%
+
+p
+  &#location
+    margin-left: 5%
+
+  &#g6
+    padding-left: 25px
+
+section#announcements figure
+  &:nth-of-type(1) div:nth-of-type(2)
+    width: 26%
+    height: 159px
+    float: right
+    margin-top: 20px
+    border-left: 3px solid rgba(169, 169, 169, 0.356)
+    font-family: Roboto
+
+    ul
+      list-style-type: none
+
+      li
+        &:nth-of-type(1)
+          margin-left: -18px
+          margin-top: 30px
+          font-size: 18px
+          text-decoration: underline
+
+        &:nth-of-type(2), &:nth-of-type(3)
+          margin-left: -15px
+          font-size: 16px
+
+  &:nth-of-type(2)
+    float: left
+    width: 31%
+    height: 202px
+    margin: 0
+    margin-top: 32px
+    background-color: rgba(238, 232, 232, 0.856)
+    border-radius: 8px
+
+  &:nth-of-type(3)
+    float: left
+    width: 31%
+    height: 203px
+    margin-right: 2%
+    margin-left: 0
+    margin-top: 30px
+    background-image: url(soCo-improvements.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-clip: content-box
+    background-position: center
+    border-radius: 8px
+
+  &:nth-of-type(4)
+    float: left
+    width: 65%
+    height: 203px
+    margin: 0
+    margin-right: 0%
+    margin-top: 30px
+    text-align: left
+    background-color: whitesmoke
+    border-radius: 8px
+
+.announce
+  margin-left: 5px
+  font-family: Roboto
+
+.improved
+  padding: 0
+  margin-left: 20px
+  height: 20px
+  font-family: Roboto
+  font-size: 19px
+
+.date
+  padding: 0
+  margin-left: 20px
+  height: 14px
+  width: 30%
+  font-family: Roboto
+  font-size: 13px
+
+.content
+  padding: 0
+  margin-left: 20px
+  width: 83%
+  font-family: Roboto
+
+/* LANDSCAPE PHOTO SECTION
+
+section#landScapes
+  padding-top: 9px
+  width: 100%
+  height: 429px
+  background-color: rgba(96, 121, 97, 0.767)
+  border-radius: 8px
+
+div#landScapeBlock
+  margin: auto
+  width: 100%
+  height: 550px
+  clear: both
+
+  div
+    &:nth-of-type(1)
+      float: left
+      width: 28%
+      height: 350px
+      margin-right: 4%
+      margin-left: 4%
+      margin-top: 35px
+      border-radius: 8px
+      background-image: url(enter.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+
+    &:nth-of-type(2)
+      float: left
+      width: 28%
+      height: 350px
+      margin-right: 4%
+      margin-top: 35px
+      border-radius: 8px
+      background-image: url(pool14.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+
+    &:nth-of-type(3)
+      float: left
+      width: 28%
+      height: 350px
+      margin-right: 4%
+      margin-top: 35px
+      border-radius: 8px
+      background-image: url(tree.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+
+/* FOOTER
+
+.foot
+  color: silver
+  font-size: 17px
+  font-family: Roboto Mono
+  margin-top: 20px
+
+/* FAQS PAGE STYLES
+
+main#faq-main
+  margin: 0 auto
+  padding-bottom: 150px
+  width: 85%
+  height: 1450px
+
+div#faq-info
+  width: 100%
+  height: 1160px
+  background-color: rgb(181, 201, 180)
+  border-radius: 8px
+
+  div:nth-of-type(1)
+    float: left
+    width: 55%
+    height: 1100px
+    margin-top: 30px
+    margin-left: 1.25%
+    background-color: whitesmoke
+
+    /* text-align: center;
+    font-family: Roboto
+    border-radius: 8px */
+
+h2#faq-title
+  width: 25%
+  padding-left: 15px
+
+.find-answers
+  padding-left: 15px
+
+ul#list-faqs
+  padding-left: 29px
+  padding-right: 20px
+
+div#faq-info div:nth-of-type(2)
+  float: left
+  width: 41%
+  height: 1100px
+  margin-top: 30px
+  margin-left: 1.25%
+  background-image: url(morePalm.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-clip: content-box
+  background-position: center
+  border-radius: 8px
+
+/* UPDATES PAGE STYLES
+
+main#update-main
+  margin: 0 auto
+  padding-bottom: 150px
+  width: 85%
+  height: 1950px
+
+div#update1-info
+  width: 100%
+  height: 300px
+  background-color: rgb(181, 201, 180)
+  border-radius: 8px
+
+  div
+    &:nth-of-type(1)
+      float: left
+      width: 30%
+      height: 275px
+      margin-top: 14px
+      margin-left: 1.25%
+      background-image: url(soCo-improvements.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+      border-radius: 8px
+
+    &:nth-of-type(2)
+      float: right
+      width: 66%
+      height: 275px
+      margin-top: 14px
+      margin-right: 1.25%
+      background-color: whitesmoke
+
+      /* text-align: center;
+      font-family: Roboto
+      border-radius: 8px */
+
+.update-title
+  margin-top: 20px
+  margin-left: 10px
+  height: 20px
+  text-decoration: underline
+  font-family: Roboto
+  font-size: 19px
+
+.update-date
+  margin-left: 10px
+  height: 14px
+  font-family: Roboto
+  font-size: 13px
+
+.update-content
+  margin-left: 10px
+  font-family: Roboto
+
+div
+  &#update2-info
+    width: 100%
+    height: 300px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div
+      &:nth-of-type(1)
+        float: left
+        width: 30%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        background-image: url(pool1.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+        border-radius: 8px
+
+      &:nth-of-type(2)
+        float: right
+        width: 66%
+        height: 275px
+        margin-top: 14px
+        margin-right: 1.25%
+        background-color: whitesmoke
+        font-family: Roboto
+        border-radius: 8px
+
+  &#update3-info
+    width: 100%
+    height: 300px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      float: left
+      width: 97.5%
+      height: 275px
+      margin-top: 14px
+      margin-left: 1.25%
+      margin-right: 1.25%
+      background-color: whitesmoke
+      text-align: center
+      font-family: Roboto
+      border-radius: 8px
+
+  &#update4-info, &#update5-info
+    width: 100%
+    height: 300px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      float: left
+      width: 97.5%
+      height: 275px
+      margin-top: 14px
+      margin-left: 1.25%
+      margin-right: 1.25%
+      background-color: whitesmoke
+      font-family: Roboto
+      border-radius: 8px
+
+/* HOA AND MGMT STYLES
+
+main#mgmt-main
+  margin: 0 auto
+  padding-bottom: 150px
+  width: 85%
+  height: 1950px
+
+div#mgmt-info
+  width: 100%
+  height: 1300px
+  background-color: rgba(0, 0, 0, 0.048)
+  border-radius: 8px
+
+  div:nth-of-type(1)
+    float: left
+    width: 80%
+    height: 1240px
+    margin-top: 30px
+    margin-left: 10%
+    background-color: whitesmoke
+    text-align: center
+    font-family: Roboto
+    border-radius: 8px
+
+.mgmt-para
+  font-size: 14px
+  width: 85%
+  padding-left: 65px
+
+section#mgmt-landScapes
+  padding-top: 9px
+  width: 100%
+  height: 429px
+  background-color: rgba(96, 121, 97, 0.767)
+  border-radius: 8px
+
+div#mgmt-landScapeBlock
+  margin: auto
+  width: 100%
+  height: 550px
+  clear: both
+
+  div
+    &:nth-of-type(1)
+      float: left
+      width: 44%
+      height: 350px
+      margin-right: 4%
+      margin-left: 4%
+      border-radius: 8px
+      background-image: url(pool13.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+
+    &:nth-of-type(2)
+      float: left
+      width: 44%
+      height: 350px
+      margin-right: 4%
+      border-radius: 8px
+      background-image: url(gazebo.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+
+/* CONTACT PAGE STYLES
+
+main#contact-main
+  margin: 0 auto
+  padding-bottom: 150px
+  width: 85%
+  height: 1350px
+
+section#contact
+  height: 500px
+  padding-left: 8%
+  padding-right: 8%
+  background-color: rgba(238, 232, 232, 0.856)
+  border-radius: 8px
+
+  figure
+    &:nth-of-type(1), &:nth-of-type(2)
+      float: left
+      width: 30%
+      height: 410px
+      margin-right: 5%
+      margin-left: 0
+      margin-top: 45px
+      background-color: whitesmoke
+      text-align: center
+      border-radius: 8px
+
+    &:nth-of-type(3)
+      float: right
+      width: 30%
+      height: 410px
+      margin-right: 0
+      margin-left: 0
+      margin-top: 45px
+      background-color: whitesmoke
+      text-align: center
+      border-radius: 8px
+
+.contact1
+  font-family: Roboto
+  color: rgba(0, 0, 0, 0.555)
+
+.title-placement1
+  margin-top: 50px
+  text-decoration: underline
+  font-family: Roboto
+  font-size: 22px
+
+.action
+  font-size: 16px
+  font-family: Roboto
+  color: rgba(0, 0, 255, 0.795)
+
+.contact2
+  font-family: Roboto
+  color: rgba(0, 0, 0, 0.555)
+
+.title-placement2
+  margin-top: 50px
+  text-decoration: underline
+  font-family: Roboto
+  font-size: 22px
+
+p#questions
+  margin-left: 2px
+  margin-right: 2px
+
+.title-placement3
+  margin-top: 120px
+  text-decoration: underline
+  font-family: Roboto
+  font-size: 22px
+
+.fa-phone
+  margin-top: 20px
+  font-size: 18px !important
+  color: crimson
+
+.fa-envelope, .fa-globe
+  font-size: 18px !important
+  color: crimson
+
+section#map-border
+  padding-top: 9px
+  width: 100%
+  height: 545px
+  background-color: rgba(96, 121, 97, 0.767)
+  border-radius: 8px
+
+.maps
+  margin-left: 2.5%
+  margin-top: 25px
+  border-radius: 8px
+
+/* PROPERTY PAGE STYLES
+
+main#property
+  padding-bottom: 150px
+  width: 85%
+  margin: 0 auto
+  height: 900px
+
+section#list-maps
+  height: 590px
+  padding-left: 3%
+  padding-right: 3%
+  background-color: rgba(100, 30, 30, 0.521)
+  border-radius: 8px
+
+  figure:nth-of-type(1)
+    float: left
+    width: 100%
+    margin: 0
+    height: 520px
+    margin-top: 30px
+    margin-left: .25%
+    background-color: whitesmoke
+    text-align: left
+    font-family: Roboto
+    border-radius: 8px
+
+.deeds-maps
+  margin-top: 30px
+  margin-left: 85px
+  font-size: 24px
+  text-decoration: underline
+  color: rgba(0, 0, 0, 0.651)
+
+.docs
+  /* padding: 0;
+  list-style-type: none
+  text-align: justify
+  width: 80% */
+
+.property-lang
+  margin-left: 25px
+  width: 88%
+
+/* PARKING AND STORAGE PAGE STYLES
+
+main#parkingStorage
+  margin: 0 auto
+  padding-bottom: 150px
+  width: 85%
+  height: 4580px
+
+section#parking-storage
+  width: 94%
+  height: 4360px
+  padding-left: 3%
+  padding-right: 3%
+  background-color: rgba(174, 194, 211, 0.966)
+  border-radius: 8px
+
+  figure:nth-of-type(1)
+    float: left
+    width: 100%
+    height: 4290px
+    margin-top: 30px
+    margin-left: .25%
+    background-color: whitesmoke
+    text-align: center
+    font-family: Roboto
+    border-radius: 8px
+
+/* Tablet Styles */
+
+@media screen and (max-width: 992px) and (min-width: 600px)
+  /* HOME PAGE STYLES */
+
+  main
+    padding-bottom: 150px
+    width: 85%
+    margin: 0 auto
+    height: 1700px
+
+  header
+    &#head1
+      border-radius: 8px
+      width: 100%
+      height: 150px
+      color: white
+      background-color: rgb(68, 68, 85)
+
+    &#mobile-head1
+      display: none
+
+  .logo
+    width: 40%
+    float: left
+    margin-left: 10%
+    font-family: Comfortaa
+    font-size: 35px
+    margin-bottom: 6px
+
+  /* FONT AWESONE MEDIA ICONS */
+
+  header#head1
+    ul#media-icons
+      list-style-type: none
+      width: 530px
+      float: right
+
+      li
+        float: left
+        font-family: Roboto
+        font-size: 16px
+        border-right: 1px solid white
+        padding: 0 10px 0 10px
+
+        > a:hover
+          color: #ffffff
+          text-decoration: underline
+
+        &:nth-of-type(5)
+          border-right: unset
+
+        &:nth-of-type(6)
+          border-right: unset
+          font-size: 20px
+
+    .underLogo
+      width: 40%
+      margin-left: 10%
+      margin-bottom: 10px
+      font-family: Comfortaa
+      color: white
+
+  a
+    color: grey
+    text-decoration: none
+
+  *
+    box-sizing: border-box
+
+//   /* Slideshow container *
+
+  .slideshow-container
+    position: relative
+    margin: auto
+    width: 100%
+    height: 560px
+    border-radius: 8px
+
+  .mobile-slideshow-container
+    display: none
+
+  /* Hide the images by default */
+
+  .mySlides
+    display: none
+    width: 100%
+    height: 560px
+    border-radius: 8px
+
+  /* Next & previous buttons
+
+  .prev
+    cursor: pointer
+    position: absolute
+    top: 50%
+    width: auto
+    margin-top: -22px
+    padding: 16px
+    color: white
+    font-weight: bold
+    font-size: 18px
+    transition: 0.6s ease
+    border-radius: 0 3px 3px 0
+    user-select: none
+
+  .next
+    cursor: pointer
+    position: absolute
+    top: 50%
+    width: auto
+    margin-top: -22px
+    padding: 16px
+    color: white
+    font-weight: bold
+    font-size: 18px
+    transition: 0.6s ease
+    border-radius: 0 3px 3px 0
+    user-select: none
+    right: 0
+    border-radius: 3px 0 0 3px
+
+  /* Position the "next button" to the right
+
+  /* On hover, add a black background color with a little bit see-through
+
+  .prev:hover, .next:hover
+    background-color: rgba(0, 0, 0, 0.8)
+
+  /* Caption text
+
+  .text
+    color: #f2f2f2
+    font-size: 15px
+    padding: 8px 12px
+    position: absolute
+    bottom: 8px
+    width: 100%
+    text-align: center
+
+  .active, .dot:hover
+    background-color: #717171
+
+  /* Fading animation
+
+  .fade
+    -webkit-animation-name: fade
+    -webkit-animation-duration: 1.5s
+    animation-name: fade
+    animation-duration: 1.5s
+
+  @-webkit-keyframes fade
+    from
+      opacity: .4
+
+    to
+      opacity: 1
+
+  @keyframes fade
+    from
+      opacity: .4
+
+    to
+      opacity: 1
+
+  /* UPDATES SECTION
+
+  section#announcements
+    width: 100%
+    height: 500px
+    padding-left: 3%
+    padding-right: 3%
+    background-color: rgba(238, 232, 232, 0.856)
+    border-radius: 8px
+
+    figure:nth-of-type(1)
+      float: left
+      width: 65%
+      height: 202px
+      margin: 0
+      margin-right: 2%
+      margin-top: 32px
+      background-color: whitesmoke
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        width: 70%
+        height: 180px
+        float: left
+        font-family: Roboto
+
+  h3#welcome
+    margin-top: 16px
+    padding-left: 5%
+
+  p#location
+    margin-left: 5%
+
+  /* p#g6 {
+   *    padding-left: 25px;
+   *}
+
+  section#announcements figure
+    &:nth-of-type(1) div:nth-of-type(2)
+      width: 26%
+      height: 159px
+      float: right
+      margin-top: 20px
+      border-left: 3px solid rgba(169, 169, 169, 0.356)
+      font-family: Roboto
+
+      ul
+        list-style-type: none
+
+        li
+          &:nth-of-type(1)
+            margin-left: -18px
+            margin-top: -25px
+            font-size: 18px
+            text-decoration: underline
+
+          &:nth-of-type(2)
+            margin-left: -25px
+            font-size: 15px
+
+          &:nth-of-type(3)
+            margin-left: -29px
+            font-size: 15px
+
+    &:nth-of-type(2)
+      float: left
+      width: 31%
+      height: 202px
+      margin: 0
+      margin-top: 32px
+      background-color: rgba(238, 232, 232, 0.856)
+      border-radius: 8px
+
+    &:nth-of-type(3)
+      float: left
+      width: 31%
+      height: 203px
+      margin-right: 2%
+      margin-left: 0
+      margin-top: 30px
+      background-image: url(soCo-improvements.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+      background-clip: content-box
+      background-position: center
+      border-radius: 8px
+
+    &:nth-of-type(4)
+      float: left
+      width: 65%
+      height: 203px
+      margin: 0
+      margin-right: 0%
+      margin-top: 30px
+      text-align: left
+      background-color: whitesmoke
+      border-radius: 8px
+
+  .announce
+    margin-left: 5px
+    font-family: Roboto
+
+  .improved
+    padding: 0
+    margin-top: 11px
+    margin-left: 20px
+    height: 20px
+    font-family: Roboto
+    font-size: 19px
+
+  .date
+    padding: 0
+    margin-top: 30px
+    margin-left: 20px
+    height: 14px
+    width: 30%
+    font-family: Roboto
+    font-size: 13px
+
+  .content
+    padding: 0
+    margin-left: 20px
+    width: 83%
+    font-family: Roboto
+
+  /* LANDSCAPE PHOTO SECTION
+
+  section#landScapes
+    padding-top: 9px
+    width: 100%
+    height: 329px
+    background-color: rgba(96, 121, 97, 0.767)
+    border-radius: 8px
+
+  div#landScapeBlock
+    margin: auto
+    width: 100%
+    height: 550px
+    clear: both
+
+    div
+      &:nth-of-type(1)
+        float: left
+        width: 28%
+        height: 270px
+        margin-right: 4%
+        margin-left: 4%
+        margin-top: 19px
+        border-radius: 8px
+        background-image: url(enter.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+      &:nth-of-type(2)
+        float: left
+        width: 28%
+        height: 270px
+        margin-right: 4%
+        margin-top: 19px
+        border-radius: 8px
+        background-image: url(pool14.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+      &:nth-of-type(3)
+        float: left
+        width: 28%
+        height: 270px
+        margin-right: 4%
+        margin-top: 19px
+        border-radius: 8px
+        background-image: url(tree.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+  /* FOOTER
+
+  .foot
+    color: silver
+    font-size: 17px
+    font-family: Roboto Mono
+    margin-top: 20px
+
+  /* FAQS PAGE STYLES
+
+  main#faq-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1450px
+
+  div#faq-info
+    width: 100%
+    height: 1120px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      float: left
+      width: 97%
+      height: 1100px
+      margin-top: 10px
+      margin-left: 1.25%
+      background-color: whitesmoke
+
+      /* text-align: center;
+      font-family: Roboto
+      border-radius: 8px
+
+  h2#faq-title
+    width: 25%
+    padding-left: 15px
+
+  .find-answers
+    padding-left: 15px
+
+  ul#list-faqs
+    padding-left: 29px
+    padding-right: 20px
+
+  div#faq-info div:nth-of-type(2)
+    display: none
+
+  /* UPDATES PAGE STYLES
+
+  main#update-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1950px
+
+  div#update1-info
+    width: 100%
+    height: 300px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div
+      &:nth-of-type(1)
+        float: left
+        width: 30%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        background-image: url(soCo-improvements.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+        border-radius: 8px
+
+      &:nth-of-type(2)
+        float: right
+        width: 66%
+        height: 275px
+        margin-top: 14px
+        margin-right: 1.25%
+        background-color: whitesmoke
+
+        /* text-align: center;
+        font-family: Roboto
+        border-radius: 8px
+
+  .update-title
+    margin-top: 20px
+    margin-left: 10px
+    height: 20px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 19px
+
+  .update-date
+    margin-left: 10px
+    height: 14px
+    font-family: Roboto
+    font-size: 13px
+
+  .update-content
+    margin-left: 10px
+    font-family: Roboto
+
+  div
+    &#update2-info
+      width: 100%
+      height: 300px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div
+        &:nth-of-type(1)
+          float: left
+          width: 30%
+          height: 275px
+          margin-top: 14px
+          margin-left: 1.25%
+          background-image: url(pool1.jpg)
+          background-repeat: no-repeat
+          background-size: cover
+          background-clip: content-box
+          background-position: center
+          border-radius: 8px
+
+        &:nth-of-type(2)
+          float: right
+          width: 66%
+          height: 275px
+          margin-top: 14px
+          margin-right: 1.25%
+          background-color: whitesmoke
+          font-family: Roboto
+          border-radius: 8px
+
+    &#update3-info
+      width: 100%
+      height: 300px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        float: left
+        width: 97.5%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        margin-right: 1.25%
+        background-color: whitesmoke
+        text-align: center
+        font-family: Roboto
+        border-radius: 8px
+
+    &#update4-info, &#update5-info
+      width: 100%
+      height: 300px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        float: left
+        width: 97.5%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        margin-right: 1.25%
+        background-color: whitesmoke
+        font-family: Roboto
+        border-radius: 8px
+
+  /* HOA AND MGMT STYLES
+
+  main#mgmt-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1950px
+
+  div#mgmt-info
+    width: 100%
+    height: 1300px
+    background-color: rgba(0, 0, 0, 0.048)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      float: left
+      width: 80%
+      height: 1240px
+      margin-top: 30px
+      margin-left: 10%
+      background-color: whitesmoke
+      text-align: center
+      font-family: Roboto
+      border-radius: 8px
+
+  .mgmt-para
+    font-size: 14px
+    width: 85%
+    padding-left: 65px
+
+  section#mgmt-landScapes
+    padding-top: 9px
+    width: 100%
+    height: 429px
+    background-color: rgba(96, 121, 97, 0.767)
+    border-radius: 8px
+
+  div#mgmt-landScapeBlock
+    margin: auto
+    width: 100%
+    height: 550px
+    clear: both
+
+    div
+      &:nth-of-type(1)
+        float: left
+        width: 44%
+        height: 350px
+        margin-right: 4%
+        margin-left: 4%
+        border-radius: 8px
+        background-image: url(pool13.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+      &:nth-of-type(2)
+        float: left
+        width: 44%
+        height: 350px
+        margin-right: 4%
+        border-radius: 8px
+        background-image: url(gazebo.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+  /* CONTACT PAGE STYLES
+
+  main#contact-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1350px
+
+  section#contact
+    height: 500px
+    padding-left: 8%
+    padding-right: 8%
+    background-color: rgba(238, 232, 232, 0.856)
+    border-radius: 8px
+
+    figure
+      &:nth-of-type(1), &:nth-of-type(2)
+        float: left
+        width: 30%
+        height: 410px
+        margin-right: 5%
+        margin-left: 0
+        margin-top: 45px
+        background-color: whitesmoke
+        text-align: center
+        border-radius: 8px
+
+      &:nth-of-type(3)
+        float: right
+        width: 30%
+        height: 410px
+        margin-right: 0
+        margin-left: 0
+        margin-top: 45px
+        background-color: whitesmoke
+        text-align: center
+        border-radius: 8px
+
+  .contact1
+    font-family: Roboto
+    color: rgba(0, 0, 0, 0.555)
+
+  .title-placement1
+    margin-top: 50px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 22px
+
+  .action
+    font-size: 16px
+    font-family: Roboto
+    color: rgba(0, 0, 255, 0.795)
+
+  .contact2
+    font-family: Roboto
+    color: rgba(0, 0, 0, 0.555)
+
+  .title-placement2
+    margin-top: 50px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 22px
+
+  p#questions
+    margin-left: 2px
+    margin-right: 2px
+
+  .title-placement3
+    margin-top: 120px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 22px
+
+  .fa-phone
+    margin-top: 20px
+    font-size: 18px !important
+    color: crimson
+
+  .fa-envelope, .fa-globe
+    font-size: 18px !important
+    color: crimson
+
+  section#map-border
+    padding-top: 9px
+    width: 100%
+    height: 545px
+    background-color: rgba(96, 121, 97, 0.767)
+    border-radius: 8px
+
+  .maps
+    margin-left: 2.5%
+    margin-top: 25px
+    border-radius: 8px
+
+  /* PROPERTY PAGE STYLES
+
+  main#property
+    padding-bottom: 150px
+    width: 85%
+    margin: 0 auto
+    height: 900px
+
+  section#list-maps
+    height: 590px
+    padding-left: 3%
+    padding-right: 3%
+    background-color: rgba(100, 30, 30, 0.521)
+    border-radius: 8px
+
+    figure:nth-of-type(1)
+      float: left
+      width: 100%
+      margin: 0
+      height: 520px
+      margin-top: 30px
+      margin-left: .25%
+      background-color: whitesmoke
+      text-align: left
+      font-family: Roboto
+      border-radius: 8px
+
+  .deeds-maps
+    margin-top: 30px
+    margin-left: 85px
+    font-size: 24px
+    text-decoration: underline
+    color: rgba(0, 0, 0, 0.651)
+
+  .docs
+    /* padding: 0;
+    list-style-type: none
+    text-align: justify
+    width: 80%
+
+  .property-lang
+    margin-left: 25px
+    width: 88%
+
+  /* PARKING AND STORAGE PAGE STYLES
+
+  main#parkingStorage
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 4580px
+
+  section#parking-storage
+    width: 94%
+    height: 4360px
+    padding-left: 3%
+    padding-right: 3%
+    background-color: rgba(174, 194, 211, 0.966)
+    border-radius: 8px
+
+    figure:nth-of-type(1)
+      float: left
+      width: 100%
+      height: 4290px
+      margin-top: 30px
+      margin-left: .25%
+      background-color: whitesmoke
+      text-align: center
+      font-family: Roboto
+      border-radius: 8px
+
+/* On screens that are 600px or less, set the background color to olive
+
+@media screen and (max-width: 600px)
+  body
+    /* background-color: green;
+
+  header
+    &#head1
+      display: none
+
+    &#mobile-head1
+      display: block
+      background-color: rgb(68, 68, 85)
+      border-radius: 8px
+      font-family: Roboto
+      text-align: center
+
+      ul#mobile-media-icons
+        list-style-type: none
+        width: 87%
+        text-align: center
+
+        li
+          font-family: Roboto
+          font-size: 17px
+
+          > a:hover
+            color: #ffffff
+            text-decoration: underline
+
+          &:nth-of-type(5)
+            border-right: unset
+
+          &:nth-of-type(6)
+            border-right: unset
+            font-size: 20px
+
+  /* FONT AWESONE MEDIA ICONS
+
+  /* UPDATES SECTION
+
+  section#announcements
+    width: 100%
+    height: 630px
+    padding-left: 3%
+    padding-right: 3%
+    background-color: rgba(238, 232, 232, 0.856)
+    border-radius: 8px
+
+    figure:nth-of-type(1)
+      float: left
+      width: 100%
+      height: 280px
+      margin: 0
+      margin-right: 2%
+      margin-top: 32px
+      background-color: whitesmoke
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        width: 70%
+        height: 180px
+        float: left
+        font-family: Roboto
+
+  h3#welcome
+    margin-top: 36px
+    padding-left: 5%
+
+  p#location
+    margin-left: 5%
+
+  section#announcements figure
+    &:nth-of-type(1) div:nth-of-type(2)
+      width: 28%
+      height: 270px
+
+      /* float: right;
+      margin-top: 5px
+      border-left: 3px solid rgba(169, 169, 169, 0.356)
+      font-family: Roboto
+
+      ul
+        list-style-type: none
+
+        li
+          &:nth-of-type(1)
+            /* margin-left: 18px;
+            margin-top: 40px
+            font-size: 15px
+            text-align: left
+            text-decoration: underline
+
+          &:nth-of-type(2)
+            margin-left: -25px
+            text-align: left
+            font-size: 14px
+
+          &:nth-of-type(3)
+            margin-left: -25px
+            font-size: 14px
+
+    &:nth-of-type(2), &:nth-of-type(3)
+      display: none
+
+    &:nth-of-type(4)
+      float: left
+      width: 100%
+      height: 260px
+      margin: 0
+      margin-right: 0%
+      margin-top: 30px
+      text-align: left
+      background-color: whitesmoke
+      border-radius: 8px
+
+  .announce
+    margin-left: 5px
+    font-family: Roboto
+
+  .improved
+    padding: 0
+    margin-top: 16px
+    margin-left: 20px
+    height: 20px
+    font-family: Roboto
+    font-size: 19px
+
+  .date
+    padding: 0
+    margin-top: 30px
+    margin-left: 20px
+    height: 14px
+    width: 30%
+    font-family: Roboto
+    font-size: 13px
+
+  .content
+    padding: 0
+    margin-left: 20px
+    width: 83%
+    font-family: Roboto
+
+  /* LANDSCAPE PHOTO SECTION
+
+  section#landScapes
+    padding-top: 9px
+    width: 100%
+    height: 320px
+    background-color: rgba(96, 121, 97, 0.767)
+    border-radius: 8px
+
+  div#landScapeBlock
+    margin: auto
+    width: 100%
+    height: 320px
+    clear: both
+
+    div
+      &:nth-of-type(1)
+        float: left
+        width: 43.5%
+        height: 260px
+        margin-right: 4%
+        margin-left: 4%
+        margin-top: 20px
+        border-radius: 8px
+        background-image: url(pool14.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+      &:nth-of-type(2)
+        display: none
+
+      &:nth-of-type(3)
+        float: left
+        width: 43.5%
+        height: 260px
+        margin-right: 4%
+        margin-top: 20px
+        border-radius: 8px
+        background-image: url(tree.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-clip: content-box
+        background-position: center
+
+  /* FAQS PAGE STYLES
+
+  main#faq-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1450px
+
+  div#faq-info
+    width: 100%
+    height: 1900px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      /* float: left;
+      width: 100%
+      height: 1900px
+      margin-top: 0px
+      margin-left: 0%
+      background-color: whitesmoke
+
+      /* text-align: center;
+      font-family: Roboto
+      border-radius: 8px
+
+  h2#faq-title
+    width: 25%
+    padding-left: 15px
+
+  .find-answers
+    padding-left: 15px
+
+  ul#list-faqs
+    padding-left: 29px
+    padding-right: 20px
+
+  div#faq-info div:nth-of-type(2)
+    display: none
+
+  /* UPDATES PAGE STYLES
+
+  main#update-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1950px
+
+  div#update1-info
+    width: 100%
+    height: 450px
+    background-color: rgb(181, 201, 180)
+    border-radius: 8px
+
+    div
+      &:nth-of-type(1)
+        display: none
+
+      &:nth-of-type(2)
+        /* float: right;
+        width: 100%
+        height: 460px
+        margin-top: 0px
+        margin-right: 0%
+        background-color: whitesmoke
+
+        /* text-align: center;
+        font-family: Roboto
+        border-radius: 8px
+
+  .update-title
+    margin-top: 20px
+    margin-left: 10px
+    height: 20px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 19px
+
+  .update-date
+    margin-top: 40px
+    margin-left: 10px
+    height: 14px
+    font-family: Roboto
+    font-size: 13px
+
+  .update-content
+    margin-left: 10px
+    font-family: Roboto
+    font-size: 14px
+
+  div
+    &#update2-info
+      width: 100%
+      height: 275px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div
+        &:nth-of-type(1)
+          display: none
+
+        &:nth-of-type(2)
+          /* float: right;
+          width: 100%
+          height: 275px
+          margin-top: 0px
+          margin-right: 0%
+          background-color: whitesmoke
+          font-family: Roboto
+          border-radius: 8px
+
+    &#update3-info
+      width: 100%
+      height: 300px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        float: left
+        width: 97.5%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        margin-right: 1.25%
+        background-color: whitesmoke
+        text-align: center
+        font-family: Roboto
+        border-radius: 8px
+
+    &#update4-info, &#update5-info
+      width: 100%
+      height: 300px
+      background-color: rgb(181, 201, 180)
+      border-radius: 8px
+
+      div:nth-of-type(1)
+        float: left
+        width: 97.5%
+        height: 275px
+        margin-top: 14px
+        margin-left: 1.25%
+        margin-right: 1.25%
+        background-color: whitesmoke
+        font-family: Roboto
+        border-radius: 8px
+
+  /* HOA AND MGMT STYLES
+
+  main#mgmt-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1950px
+
+  div#mgmt-info
+    width: 100%
+    height: 2215px
+    background-color: rgba(0, 0, 0, 0.048)
+    border-radius: 8px
+
+    div:nth-of-type(1)
+      /* float: left;
+      width: 90%
+      height: 2150px
+      margin-top: 30px
+      margin-left: 5%
+      background-color: whitesmoke
+      text-align: center
+      font-family: Roboto
+      border-radius: 8px
+
+  .mgmt-para
+    font-size: 14px
+    width: 85%
+    padding-left: 65px
+
+  section#mgmt-landScapes
+    display: none
+
+  div#mgmt-landScapeBlock
+    display: none
+
+    div
+      &:nth-of-type(1), &:nth-of-type(2)
+        display: none
+
+  /* CONTACT PAGE STYLES
+
+  main#contact-main
+    margin: 0 auto
+    padding-bottom: 150px
+    width: 85%
+    height: 1350px
+
+  section#contact
+    height: 835px
+    padding-left: 8%
+    padding-right: 8%
+    background-color: rgba(238, 232, 232, 0.856)
+    border-radius: 8px
+
+    figure
+      &:nth-of-type(1)
+        /* float: left;
+        width: 100%
+        height: 280px
+        margin-right: 5%
+        margin-left: 0
+        margin-top: 20px
+        background-color: whitesmoke
+        text-align: center
+        border-radius: 8px
+
+      &:nth-of-type(2)
+        /* float: left;
+        width: 100%
+        height: 297px
+        margin-right: 5%
+        margin-left: 0
+        margin-top: 5px
+        background-color: whitesmoke
+        text-align: center
+        border-radius: 8px
+
+      &:nth-of-type(3)
+        /* float: right;
+        width: 100%
+        height: 170px
+        margin-right: 0
+        margin-left: 0
+        margin-top: 5px
+        background-color: whitesmoke
+        text-align: center
+        border-radius: 8px
+
+  .contact1
+    font-family: Roboto
+    color: rgba(0, 0, 0, 0.555)
+
+  .title-placement1
+    margin-top: 14px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 18px
+
+  .action
+    font-size: 16px
+    font-family: Roboto
+    color: rgba(0, 0, 255, 0.795)
+
+  .contact2
+    font-family: Roboto
+    color: rgba(0, 0, 0, 0.555)
+
+  .title-placement2
+    margin-top: 14px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 18px
+
+  p#questions
+    margin-top: -11px
+    margin-left: 2px
+    margin-right: 2px
+
+  .title-placement3
+    margin-top: 14px
+    text-decoration: underline
+    font-family: Roboto
+    font-size: 18px
+
+  .fa-phone
+    margin-top: 10px
+    font-size: 18px !important
+    color: crimson
+
+  .fa-envelope, .fa-globe
+    font-size: 18px !important
+    color: crimson
+
+  section#map-border
+    padding-top: 9px
+    width: 100%
+    height: 545px
+    background-color: rgba(96, 121, 97, 0.767)
+    border-radius: 8px
+
+  .maps
+    margin-left: 2.5%
+    margin-top: 25px
+    border-radius: 8px
+
+  /* PROPERTY PAGE STYLES
+
+  main#property
+    padding-bottom: 150px
+    width: 85%
+    margin: 0 auto
+    height: 960px
+
+  section#list-maps
+    width: 100%
+    height: 760px
+    padding-left: 3%
+    padding-right: 3%
+    background-color: rgba(100, 30, 30, 0.521)
+    border-radius: 8px
+
+    figure:nth-of-type(1)
+      /* float: left;
+      width: 100%
+      margin: 0
+      height: 700px
+      margin-top: 30px
+      margin-left: .25%
+      background-color: whitesmoke
+      text-align: left
+      font-family: Roboto
+      border-radius: 8px
+
+  .deeds-maps
+    margin-top: 30px
+    margin-left: 30px
+    font-size: 20px
+    text-decoration: underline
+    color: rgba(0, 0, 0, 0.651)
+
+  .docs
+    font-size: 14px
+    list-style-type: none
+    text-align: justify
+    width: 85%
+
+  .property-lang
+    margin-left: 25px
+    width: 88%
