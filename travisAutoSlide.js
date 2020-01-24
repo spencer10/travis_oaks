@@ -24,10 +24,25 @@ function plusSlides(n) {
 
 showAutoSlides();
 
+// USED FOR AUTO SLIDES
 function showAutoSlides() {
 
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+
+  var desktop = document.getElementById("desktop-slide");
+  var tabtlet = document.getElementById("tablet-slide");
+  var mobile = document.getElementById("mobile-slide");
+
+  if (window.getComputedStyle(desktop).display !== "none" ) {
+    var slides = document.getElementsByClassName("myDesktopSlides");
+  }
+  if (window.getComputedStyle(tabtlet).display !== "none" ) {
+    var slides = document.getElementsByClassName("myTabletSlides");
+  }
+  if (window.getComputedStyle(mobile).display !== "none" ) {
+    var slides = document.getElementsByClassName("myMobileSlides");
+  }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -37,10 +52,25 @@ function showAutoSlides() {
   setTimeout(showAutoSlides, 3000); // Change image every 2 seconds
 }
 
+// USED FOR FORWARD BACK ARROWRS
 function showManSlides(n) {
 
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+
+  var desktop = document.getElementById("desktop-slide");
+  var tabtlet = document.getElementById("tablet-slide");
+  var mobile = document.getElementById("mobile-slide");
+
+  if (window.getComputedStyle(desktop).display !== "none" ) {
+    var slides = document.getElementsByClassName("myDesktopSlides");
+  }
+  if (window.getComputedStyle(tabtlet).display !== "none" ) {
+    var slides = document.getElementsByClassName("myTabletSlides");
+  }
+  if (window.getComputedStyle(mobile).display !== "none" ) {
+    var slides = document.getElementsByClassName("myMobileSlides");
+  }
+
   // var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}

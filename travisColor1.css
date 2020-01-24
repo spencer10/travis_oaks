@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed:400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto Mono:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy:400,500,700&display=swap');
 
 body {
     background-color: rgba(0, 0, 0, 0.616);
@@ -12,12 +13,12 @@ body {
 
 main {
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     height: 1700px;
 }
 header#head1 {
-    border-radius: 8px;
+    border-radius: 4px;
     width: 100%;
     height: 150px;
     color: white;
@@ -27,24 +28,24 @@ header#mobile-head1 {
     display: none;
 }
 .logo {
-    width: 40%;
+    width: 35%;
     float: left;
-    margin-left: 10%;
-    font-family: Comfortaa;
-    font-size: 50px;
-    margin-bottom: 6px;
+    margin-left: 3%;
+    font-family: Kaushan Script;
+    font-size: 75px;
+    margin-bottom: 0px;
 }
 
 /* FONT AWESONE MEDIA ICONS */
 
 header#head1 ul#media-icons {
     list-style-type: none;
-    width: 530px;
+    width: 580px;
     float: right;
 }
 header#head1 ul#media-icons li {
     float: left;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 16px;
     border-right: 1px solid white;
     padding: 0 10px 0 10px;
@@ -64,10 +65,10 @@ header#head1 ul#media-icons li:nth-of-type(6) {
 }
 
 header#head1 .underLogo {
-    width: 40%;
-    margin-left: 10%;
+    width:20%;
+    margin-left: 20%;
     margin-bottom: 10px;
-    font-family: Comfortaa;
+    font-family: Kaushan Script;
     color: white;
 }
 a {
@@ -84,8 +85,8 @@ a {
         position: relative; 
         margin: auto;
         width: 100%;
-        height: 560px;
-        border-radius: 8px;
+        height: 620px;
+        /* border-radius: 4px; */
 }
 .tablet-slideshow-container {
     display: none;
@@ -99,8 +100,8 @@ a {
 .mySlides {
     display: none; 
     width: 100%;
-    height: 560px;
-    border-radius: 8px;
+    /* height: 590px; */
+    /* border-radius: 4px; */
 }
 
 /* Next & previous buttons */
@@ -141,6 +142,7 @@ a {
    bottom: 8px; 
    width: 100%; 
    text-align: center;
+   font-family: Kalam;
 }
 
 .active, .dot:hover { background-color: #717171;
@@ -170,7 +172,7 @@ to {opacity: 1} }
       padding-left: 3%;
       padding-right: 3%;
       background-color: rgba(238, 232, 232, 0.856);
-      border-radius: 8px;
+      border-radius: 4px;
   }
 
   section#announcements figure:nth-of-type(1) {
@@ -181,28 +183,24 @@ to {opacity: 1} }
       margin-right: 2%;
       margin-top: 32px;
       background-color: whitesmoke;
-      border-radius: 8px;
+      
   }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
   width: 70%;
   height: 180px;
   float: left;
-  font-family: Roboto;
+  font-family: Kalam;
 
 }
 
 h3#welcome {
-    margin-top: 36px;
+    margin-top: 35px;
     padding-left: 5%;
 }
 
 p#location {
     margin-left: 5%;
-}
-
-p#g6 {
-    padding-left: 25px;
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
@@ -211,7 +209,7 @@ section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
   float: right;
   margin-top: 20px;
   border-left: 3px solid rgba(169, 169, 169, 0.356);
-  font-family: Roboto; 
+  font-family: Kalam; 
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
@@ -220,21 +218,23 @@ section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
-  margin-left: -18px;
-  margin-top: 30px;
-  font-size: 18px;
-  text-decoration: underline;
+  margin-left: -19px;
+  margin-top: 13px;
+  font-size: 19px;
+  text-decoration: none;
   
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
-  margin-left: -15px;
+  margin-left: -4px;
+  margin-top: 2px;
   font-size: 16px;
   
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
-  margin-left: -15px;
+  margin-left: -19px;
+  margin-top: 2px;
   font-size: 16px;
   
 }
@@ -246,7 +246,7 @@ section#announcements figure:nth-of-type(2) {
       margin: 0;
       margin-top: 32px;
       background-color: rgba(238, 232, 232, 0.856);
-      border-radius: 8px;
+      
   }
 section#announcements figure:nth-of-type(3) {
     float: left;
@@ -260,7 +260,7 @@ section#announcements figure:nth-of-type(3) {
     background-size: cover;
     background-clip: content-box;
     background-position: center;
-    border-radius: 8px;
+    
   }
   
 section#announcements figure:nth-of-type(4) {
@@ -272,18 +272,18 @@ section#announcements figure:nth-of-type(4) {
     margin-top: 30px;
     text-align: left;
     background-color: whitesmoke;
-    border-radius: 8px;
+    
   }
   
 .announce {
     margin-left: 5px;
-    font-family: Roboto;
+    font-family: Kalam;
  }
 .improved {
     padding: 0;
     margin-left: 20px;
     height: 20px;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 19px;
  }
 .date {
@@ -291,14 +291,14 @@ section#announcements figure:nth-of-type(4) {
     margin-left: 20px;
     height: 14px;
     width: 30%;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 13px;
  }
   .content {
     padding: 0;
     margin-left: 20px;
     width: 83%;
-    font-family: Roboto;
+    font-family: Kalam;
 }
  
 /* LANDSCAPE PHOTO SECTION */
@@ -308,7 +308,7 @@ section#announcements figure:nth-of-type(4) {
     width: 100%;
     height: 429px;
     background-color: rgba(96, 121, 97, 0.767);
-    border-radius: 8px;
+    border-radius: 4px;
   }
 
   div#landScapeBlock {
@@ -325,7 +325,7 @@ section#announcements figure:nth-of-type(4) {
     margin-right: 4%;
     margin-left: 4%;
     margin-top: 35px;
-    border-radius: 8px;
+    
     background-image: url(enter.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -339,7 +339,7 @@ div#landScapeBlock div:nth-of-type(2) {
     height: 350px;
     margin-right: 4%;
     margin-top: 35px;
-    border-radius: 8px;
+    
     background-image: url(pool14.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -353,7 +353,7 @@ div#landScapeBlock div:nth-of-type(3) {
     height: 350px;
     margin-right: 4%;
     margin-top: 35px;
-    border-radius: 8px;
+    
     background-image: url(tree.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -367,7 +367,7 @@ div#landScapeBlock div:nth-of-type(3) {
 .foot {
     color: silver;
     font-size: 17px;
-    font-family: Roboto Mono;
+    font-family: Kalam;
     margin-top: 20px;
 }
 
@@ -376,14 +376,14 @@ div#landScapeBlock div:nth-of-type(3) {
 main#faq-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1450px;
 }
 div#faq-info {
     width: 100%;
     height: 1160px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#faq-info div:nth-of-type(1) {
     float: left;
@@ -394,7 +394,7 @@ div#faq-info div:nth-of-type(1) {
     background-color: whitesmoke;
     /* text-align: center; */
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 h2#faq-title {
     width: 25%;
@@ -418,7 +418,7 @@ div#faq-info div:nth-of-type(2) {
 	background-size: cover;
 	background-clip: content-box;
 	background-position: center;
-    border-radius: 8px;
+    
 }
 
 /* UPDATES PAGE STYLES */
@@ -426,14 +426,14 @@ div#faq-info div:nth-of-type(2) {
 main#update-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1950px;
 }
 div#update1-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update1-info div:nth-of-type(1) {
     float: left;
@@ -446,7 +446,7 @@ div#update1-info div:nth-of-type(1) {
 	background-size: cover;
 	background-clip: content-box;
 	background-position: center;
-    border-radius: 8px;
+    
 }
 div#update1-info div:nth-of-type(2) {
     float: right;
@@ -455,9 +455,8 @@ div#update1-info div:nth-of-type(2) {
     margin-top: 14px;
     margin-right: 1.25%;
     background-color: whitesmoke;
-    /* text-align: center; */
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .update-title {
     margin-top: 20px;
@@ -481,7 +480,7 @@ div#update2-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update2-info div:nth-of-type(1) {
     float: left;
@@ -494,7 +493,7 @@ div#update2-info div:nth-of-type(1) {
 	background-size: cover;
 	background-clip: content-box;
 	background-position: center;
-    border-radius: 8px;
+    
 }
 div#update2-info div:nth-of-type(2) {
     float: right;
@@ -504,13 +503,13 @@ div#update2-info div:nth-of-type(2) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update3-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update3-info div:nth-of-type(1) {
     float: left;
@@ -522,13 +521,13 @@ div#update3-info div:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update4-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update4-info div:nth-of-type(1) {
     float: left;
@@ -539,13 +538,13 @@ div#update4-info div:nth-of-type(1) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update5-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update5-info div:nth-of-type(1) {
     float: left;
@@ -556,7 +555,7 @@ div#update5-info div:nth-of-type(1) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 
 /* HOA AND MGMT STYLES */
@@ -564,37 +563,37 @@ div#update5-info div:nth-of-type(1) {
 main#mgmt-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1950px;
 }
 div#mgmt-info {
     width: 100%;
     height: 1300px;
     background-color: rgba(0, 0, 0, 0.048);
-    border-radius: 8px;
+    
 }
 div#mgmt-info div:nth-of-type(1) {
     float: left;
-    width: 80%;
+    width: 95%;
     height: 1240px;
     margin-top: 30px;
-    margin-left: 10%;
+    margin-left: 2.5%;
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .mgmt-para {
     font-size: 14px;
-    width: 85%;
-    padding-left: 65px;
+    width: 100%;
+    padding: 10px;
 }
 section#mgmt-landScapes {
     padding-top: 9px;
     width: 100%;
     height: 429px;
     background-color: rgba(96, 121, 97, 0.767);
-    border-radius: 8px;
+    
 }
 div#mgmt-landScapeBlock {
     margin: auto;
@@ -608,7 +607,7 @@ div#mgmt-landScapeBlock div:nth-of-type(1) {
     height: 350px;
     margin-right: 4%;
     margin-left: 4%;
-    border-radius: 8px;
+    
     background-image: url(pool13.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -620,7 +619,7 @@ div#mgmt-landScapeBlock div:nth-of-type(2) {
     width: 44%;
     height: 350px;
     margin-right: 4%;
-    border-radius: 8px;
+    
     background-image: url(gazebo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -633,38 +632,38 @@ div#mgmt-landScapeBlock div:nth-of-type(2) {
 main#contact-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1350px;
 }
 
 section#contact {
     height:500px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: rgba(238, 232, 232, 0.856);
-    border-radius: 8px;
+    
 }
 section#contact figure:nth-of-type(1) {
     float: left;
     width: 30%;
     height: 410px;
-    margin-right: 5%;
+    margin-right: 3.5%;
     margin-left: 0;
     margin-top: 45px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   section#contact figure:nth-of-type(2) {
     float: left;
-    width: 30%;
+    width: 33%;
     height: 410px;
-    margin-right: 5%;
+    margin-right: 2%;
     margin-left: 0;
     margin-top: 45px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
 
   section#contact figure:nth-of-type(3) {
@@ -676,7 +675,7 @@ section#contact figure:nth-of-type(1) {
     margin-top: 45px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   .contact1 {
       font-family: Roboto;
@@ -684,7 +683,7 @@ section#contact figure:nth-of-type(1) {
   }
   .title-placement1 {
       margin-top: 50px;
-      text-decoration: underline;
+      text-decoration: none;
       font-family: Roboto;
       font-size: 22px;
   }
@@ -699,7 +698,7 @@ section#contact figure:nth-of-type(1) {
   }
   .title-placement2 {
     margin-top: 50px;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 22px;
 }
@@ -709,7 +708,7 @@ p#questions {
 }
 .title-placement3 {
     margin-top: 120px;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 22px;
 }
@@ -731,19 +730,19 @@ p#questions {
       width: 100%;
       height: 545px;
       background-color: rgba(96, 121, 97, 0.767);
-      border-radius: 8px;
+      
   }
   .maps {
       margin-left: 2.5%;
       margin-top: 25px;
-      border-radius: 8px;
+      
   }
 
   /* PROPERTY PAGE STYLES */
 
 main#property {
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     height: 900px;
     
@@ -754,7 +753,7 @@ section#list-maps {
       padding-left: 3%;
       padding-right: 3%;
       background-color: rgba(100, 30, 30, 0.521);
-      border-radius: 8px;
+      
 }
 section#list-maps figure:nth-of-type(1) {
     float: left;
@@ -766,33 +765,124 @@ section#list-maps figure:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: left;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .deeds-maps {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 85px;
-    font-size: 24px;
-    text-decoration: underline;
+    font-size: 22px;
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.651);
 }
-.docs {
-    /* padding: 0; */
-    list-style-type: none;
-    text-align: justify;
-    width: 80%;
-}
+
 .property-lang {
-    margin-left: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
     width: 88%;
 
 }
+
+ /* Style the navigation menu */
+ .propDox {
+    margin-top: 35px;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .propDox #myDox {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .propDox a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .propDox a.icon {
+    /* margin-top: 35px; */
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .propDox a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .action1 {
+    width: 17%;
+    background-color: rgba(139, 146, 139, 0.24);
+    color: white;
+  } 
+
+  /* Style the navigation menu */
+ .deedDox {
+    margin-top: 35px;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .deedDox #myDeeds {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .deedDox a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .deedDox a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .deedDox a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .action2 {
+    width: 36%;
+    background-color: rgba(139, 146, 139, 0.24);
+    color: white;
+  } 
+
+/* .docs {
+    list-style-type: none;
+    text-align: justify;
+    width: 80%;
+} */
 
 /* PARKING AND STORAGE PAGE STYLES */
 
 main#parkingStorage {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 4580px;
 }
 section#parking-storage {
@@ -801,7 +891,7 @@ section#parking-storage {
     padding-left: 3%;
     padding-right: 3%;
     background-color: rgba(174, 194, 211, 0.966);
-    border-radius: 8px;
+    
 }
 section#parking-storage figure:nth-of-type(1) {
     float: left;
@@ -812,7 +902,7 @@ section#parking-storage figure:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 
 
@@ -832,12 +922,12 @@ section#parking-storage figure:nth-of-type(1) {
 
 main {
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     height: 1700px;
 }
 header#head1 {
-    border-radius: 8px;
+    
     width: 100%;
     height: 150px;
     color: white;
@@ -850,7 +940,7 @@ header#mobile-head1 {
     width: 40%;
     float: left;
     margin-left: 10%;
-    font-family: Comfortaa;
+    font-family: Kaushan Script;
     font-size: 35px;
     margin-bottom: 6px;
 }
@@ -864,7 +954,7 @@ header#head1 ul#media-icons {
 }
 header#head1 ul#media-icons li {
     float: left;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 16px;
     border-right: 1px solid white;
     padding: 0 10px 0 10px;
@@ -887,7 +977,7 @@ header#head1 .underLogo {
     width: 40%;
     margin-left: 10%;
     margin-bottom: 10px;
-    font-family: Comfortaa;
+    font-family: Kaushan Script;
     color: white;
 }
 a {
@@ -905,7 +995,7 @@ a {
         margin: auto;
         width: 100%;
         height: 360px;
-        border-radius: 8px;
+        
 }
 
 .slideshow-container {
@@ -922,7 +1012,7 @@ a {
     display: none; 
     width: 100%;
     height: 560px;
-    border-radius: 8px;
+    
 }
 
 /* Next & previous buttons */
@@ -992,7 +1082,7 @@ to {opacity: 1} }
       padding-left: 3%;
       padding-right: 3%;
       background-color: rgba(238, 232, 232, 0.856);
-      border-radius: 8px;
+      
   }
 
   section#announcements figure:nth-of-type(1) {
@@ -1003,7 +1093,7 @@ to {opacity: 1} }
       margin-right: 2%;
       margin-top: 32px;
       background-color: whitesmoke;
-      border-radius: 8px;
+      
   }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
@@ -1023,10 +1113,6 @@ p#location {
     margin-left: 5%;
 }
 
-/* p#g6 {
-    padding-left: 25px;
-} */
-
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
   width: 26%;
   height: 159px;
@@ -1043,21 +1129,23 @@ section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
   margin-left: -18px;
-  margin-top: -25px;
-  font-size: 18px;
+  margin-top: -16px;
+  font-size: 16px;
   text-decoration: underline;
   
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
-  margin-left: -25px;
+  margin-left: -36px;
+  margin-top: 5px;
   font-size: 15px;
   
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
-  margin-left: -29px;
-  font-size: 15px;
+  margin-left: -30px;
+  margin-top: 10px;
+  font-size: 14px;
   
 }
 
@@ -1068,7 +1156,7 @@ section#announcements figure:nth-of-type(2) {
       margin: 0;
       margin-top: 32px;
       background-color: rgba(238, 232, 232, 0.856);
-      border-radius: 8px;
+      
   }
 section#announcements figure:nth-of-type(3) {
     float: left;
@@ -1082,7 +1170,7 @@ section#announcements figure:nth-of-type(3) {
     background-size: cover;
     background-clip: content-box;
     background-position: center;
-    border-radius: 8px;
+    
   }
   
 section#announcements figure:nth-of-type(4) {
@@ -1094,7 +1182,7 @@ section#announcements figure:nth-of-type(4) {
     margin-top: 30px;
     text-align: left;
     background-color: whitesmoke;
-    border-radius: 8px;
+    
   }
   
 .announce {
@@ -1132,7 +1220,7 @@ section#announcements figure:nth-of-type(4) {
     width: 100%;
     height: 329px;
     background-color: rgba(96, 121, 97, 0.767);
-    border-radius: 8px;
+    
   }
 
   div#landScapeBlock {
@@ -1149,7 +1237,7 @@ section#announcements figure:nth-of-type(4) {
     margin-right: 4%;
     margin-left: 4%;
     margin-top: 19px;
-    border-radius: 8px;
+    
     background-image: url(enter.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1163,7 +1251,7 @@ div#landScapeBlock div:nth-of-type(2) {
     height: 270px;
     margin-right: 4%;
     margin-top: 19px;
-    border-radius: 8px;
+    
     background-image: url(pool14.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1177,7 +1265,7 @@ div#landScapeBlock div:nth-of-type(3) {
     height:270px;
     margin-right: 4%;
     margin-top: 19px;
-    border-radius: 8px;
+    
     background-image: url(tree.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1200,14 +1288,14 @@ div#landScapeBlock div:nth-of-type(3) {
 main#faq-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1450px;
 }
 div#faq-info {
     width: 100%;
     height: 1120px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#faq-info div:nth-of-type(1) {
     float: left;
@@ -1218,7 +1306,7 @@ div#faq-info div:nth-of-type(1) {
     background-color: whitesmoke;
     /* text-align: center; */
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 h2#faq-title {
     width: 25%;
@@ -1240,19 +1328,19 @@ div#faq-info div:nth-of-type(2) {
 main#update-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1950px;
 }
 div#update1-info {
     width: 100%;
-    height: 300px;
+    height: 405px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update1-info div:nth-of-type(1) {
     float: left;
     width: 30%;
-    height: 275px;
+    height: 378px;
     margin-top: 14px;
     margin-left: 1.25%;
     background-image: url(soCo-improvements.jpg);
@@ -1260,18 +1348,17 @@ div#update1-info div:nth-of-type(1) {
 	background-size: cover;
 	background-clip: content-box;
 	background-position: center;
-    border-radius: 8px;
+    
 }
 div#update1-info div:nth-of-type(2) {
     float: right;
     width: 66%;
-    height: 275px;
+    height: 378px;
     margin-top: 14px;
     margin-right: 1.25%;
     background-color: whitesmoke;
-    /* text-align: center; */
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .update-title {
     margin-top: 20px;
@@ -1295,7 +1382,7 @@ div#update2-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update2-info div:nth-of-type(1) {
     float: left;
@@ -1308,7 +1395,7 @@ div#update2-info div:nth-of-type(1) {
 	background-size: cover;
 	background-clip: content-box;
 	background-position: center;
-    border-radius: 8px;
+    
 }
 div#update2-info div:nth-of-type(2) {
     float: right;
@@ -1318,13 +1405,13 @@ div#update2-info div:nth-of-type(2) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update3-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update3-info div:nth-of-type(1) {
     float: left;
@@ -1336,13 +1423,13 @@ div#update3-info div:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update4-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update4-info div:nth-of-type(1) {
     float: left;
@@ -1353,13 +1440,13 @@ div#update4-info div:nth-of-type(1) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 div#update5-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update5-info div:nth-of-type(1) {
     float: left;
@@ -1370,7 +1457,7 @@ div#update5-info div:nth-of-type(1) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 
 /* HOA AND MGMT STYLES */
@@ -1378,37 +1465,37 @@ div#update5-info div:nth-of-type(1) {
 main#mgmt-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1950px;
 }
 div#mgmt-info {
     width: 100%;
-    height: 1300px;
+    height: 1430px;
     background-color: rgba(0, 0, 0, 0.048);
-    border-radius: 8px;
+    
 }
 div#mgmt-info div:nth-of-type(1) {
     float: left;
     width: 80%;
-    height: 1240px;
+    height: 1370px;
     margin-top: 30px;
     margin-left: 10%;
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .mgmt-para {
     font-size: 14px;
-    width: 85%;
-    padding-left: 65px;
+    width: 100%;
+    padding: 5px;
 }
 section#mgmt-landScapes {
     padding-top: 9px;
     width: 100%;
     height: 429px;
     background-color: rgba(96, 121, 97, 0.767);
-    border-radius: 8px;
+    
 }
 div#mgmt-landScapeBlock {
     margin: auto;
@@ -1422,7 +1509,7 @@ div#mgmt-landScapeBlock div:nth-of-type(1) {
     height: 350px;
     margin-right: 4%;
     margin-left: 4%;
-    border-radius: 8px;
+    
     background-image: url(pool13.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1434,7 +1521,7 @@ div#mgmt-landScapeBlock div:nth-of-type(2) {
     width: 44%;
     height: 350px;
     margin-right: 4%;
-    border-radius: 8px;
+    
     background-image: url(gazebo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1447,60 +1534,60 @@ div#mgmt-landScapeBlock div:nth-of-type(2) {
 main#contact-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 1350px;
 }
 
 section#contact {
-    height:500px;
-    padding-left: 8%;
-    padding-right: 8%;
+    height:420px;
+    padding-left: 1%;
+    padding-right: 1%;
     background-color: rgba(238, 232, 232, 0.856);
-    border-radius: 8px;
+    
 }
 section#contact figure:nth-of-type(1) {
     float: left;
-    width: 30%;
-    height: 410px;
-    margin-right: 5%;
+    width: 33%;
+    height: 390px;
+    margin-right: 1%;
     margin-left: 0;
-    margin-top: 45px;
+    margin-top: 15px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   section#contact figure:nth-of-type(2) {
     float: left;
-    width: 30%;
-    height: 410px;
-    margin-right: 5%;
+    width: 33%;
+    height: 390px;
+    margin-right: 0;
     margin-left: 0;
-    margin-top: 45px;
+    margin-top: 15px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
 
   section#contact figure:nth-of-type(3) {
     float: right;
-    width: 30%;
-    height: 410px;
+    width: 32%;
+    height: 390px;
     margin-right: 0;
     margin-left: 0;
-    margin-top: 45px;
+    margin-top: 15px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   .contact1 {
       font-family: Roboto;
       color: rgba(0, 0, 0, 0.555);
   }
   .title-placement1 {
-      margin-top: 50px;
+      margin-top: 30px;
       text-decoration: underline;
       font-family: Roboto;
-      font-size: 22px;
+      font-size: 20px;
   }
   .action {
       font-size: 16px;
@@ -1512,20 +1599,21 @@ section#contact figure:nth-of-type(1) {
       color: rgba(0, 0, 0, 0.555);
   }
   .title-placement2 {
-    margin-top: 50px;
+    margin-top: 30px;
     text-decoration: underline;
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 20px;
 }
 p#questions {
+    margin-top: -10px;
     margin-left: 2px;
     margin-right: 2px;
 }
 .title-placement3 {
-    margin-top: 120px;
+    margin-top: 80px;
     text-decoration: underline;
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 20px;
 }
 .fa-phone {
       margin-top: 20px;
@@ -1545,42 +1633,42 @@ p#questions {
       width: 100%;
       height: 545px;
       background-color: rgba(96, 121, 97, 0.767);
-      border-radius: 8px;
+      
   }
   .maps {
       margin-left: 2.5%;
       margin-top: 25px;
-      border-radius: 8px;
+      
   }
 
   /* PROPERTY PAGE STYLES */
 
 main#property {
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     height: 900px;
     
 }
 
 section#list-maps {
-      height:590px;
+      height:600px;
       padding-left: 3%;
       padding-right: 3%;
       background-color: rgba(100, 30, 30, 0.521);
-      border-radius: 8px;
+      
 }
 section#list-maps figure:nth-of-type(1) {
     float: left;
     width: 100%;
     margin: 0;
-    height: 520px;
+    height: 540px;
     margin-top: 30px;
     margin-left: .25%;
     background-color: whitesmoke;
     text-align: left;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .deeds-maps {
     margin-top: 30px;
@@ -1606,7 +1694,7 @@ section#list-maps figure:nth-of-type(1) {
 main#parkingStorage {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 95%;
     height: 4580px;
 }
 section#parking-storage {
@@ -1615,7 +1703,7 @@ section#parking-storage {
     padding-left: 3%;
     padding-right: 3%;
     background-color: rgba(174, 194, 211, 0.966);
-    border-radius: 8px;
+    
 }
 section#parking-storage figure:nth-of-type(1) {
     float: left;
@@ -1626,7 +1714,7 @@ section#parking-storage figure:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 
 }
@@ -1641,46 +1729,123 @@ section#parking-storage figure:nth-of-type(1) {
 @media screen and (max-width: 600px) {
 
     body {
-        /* background-color: green; */
+        background-color: rgba(0, 0, 0, 0);
     }
     header#head1 {
         display: none;
     }
+
+    main {
+        padding-bottom: 150px;
+        width: 97%;
+        margin: 0 auto;
+        height: 1490px;
+    }
+
     header#mobile-head1 {
         display: block;
         background-color: rgb(68, 68, 85); 
-        border-radius: 8px;
-        font-family: Roboto;
-        text-align: center;
+        border-radius: 3px;
+        /* font-family: Roboto; */
+        /* text-align: center; */
+        margin-top: -30px;
     }
+
+    .travis {
+        font-size: 35px;
+        /* margin-top: 30px; */
+        margin-left: 7%;
+        font-family: Kaushan Script;
+    }
+    .address {
+        margin-left: 7%;
+        font-size: 15px;
+        font-family: Kaushan Script;
+    }
+
+    /* .mobile-head1 h1 {
+        height: 20px;
+        margin-top: 0px;
+    } */
+
+     /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+  
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+        font-family: Kalam;
+    }
+    
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: rgba(66, 66, 90, 0.541);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: rgb(97, 97, 129); 
+        color: silver;
+        font-family: Kalam;
+    } 
+
     /* FONT AWESONE MEDIA ICONS */
 
-    header#mobile-head1 ul#mobile-media-icons {
+    /* header#mobile-head1 ul#mobile-media-icons {
         list-style-type: none;
         width: 87%;
         text-align: center;
-    }
-    header#mobile-head1 ul#mobile-media-icons li {
+    } */
+    /* header#mobile-head1 ul#mobile-media-icons li {
         font-family: Roboto;
         font-size: 17px;
-    }
+    } */
 
-    header#mobile-head1 ul#mobile-media-icons li > a:hover {
+    /* header#mobile-head1 ul#mobile-media-icons li > a:hover {
         color: #ffffff;
         text-decoration: underline;
-    }
+    } */
 
-    header#mobile-head1 ul#mobile-media-icons li:nth-of-type(5) {
+    /* header#mobile-head1 ul#mobile-media-icons li:nth-of-type(5) {
         border-right: unset;
-    }
-    header#mobile-head1 ul#mobile-media-icons li:nth-of-type(6) {
+    } */
+    /* header#mobile-head1 ul#mobile-media-icons li:nth-of-type(6) {
         border-right: unset;
+        margin-bottom: 15px;
         font-size: 20px;
-    }
+    } */
+
+    /* a {
+        color: grey;
+        text-decoration: none;
+    }  */
 
     .mobile-slideshow-container {
         display: block;
-        height: 260px;
+        height: 232px;
     }
 
     .slideshow-container {
@@ -1691,6 +1856,26 @@ section#parking-storage figure:nth-of-type(1) {
         display: none;
     }
 
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        width: auto;
+        margin-top: -22px; 
+        padding: 16px;
+        color: white;
+        font-weight: bold; 
+        font-size: 18px;
+        transition: 0.6s ease; 
+        border-radius: 0 3px 3px 0; 
+        user-select: none;
+    }
+    
+    .next {
+        left: unset;
+        right: 20px;
+    }
+
      /* UPDATES SECTION */
 
   section#announcements {
@@ -1699,7 +1884,7 @@ section#parking-storage figure:nth-of-type(1) {
     padding-left: 3%;
     padding-right: 3%;
     background-color: rgba(238, 232, 232, 0.856);
-    border-radius: 8px;
+    
 }
 
 section#announcements figure:nth-of-type(1) {
@@ -1710,19 +1895,19 @@ section#announcements figure:nth-of-type(1) {
     margin-right: 2%;
     margin-top: 32px;
     background-color: whitesmoke;
-    border-radius: 8px;
+    
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
 width: 70%;
 height: 180px;
 float: left;
-font-family: Roboto;
+font-family: Kalam;
 
 }
 
 h3#welcome {
-  margin-top: 36px;
+  margin-top: 17px;
   padding-left: 5%;
 }
 
@@ -1732,11 +1917,10 @@ p#location {
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
 width: 28%;
-height: 270px;
-/* float: right; */
-margin-top: 5px;
+height: 230px;
+margin-top: 22px;
 border-left: 3px solid rgba(169, 169, 169, 0.356);
-font-family: Roboto; 
+font-family: Kalam; 
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
@@ -1745,23 +1929,21 @@ list-style-type: none;
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
-/* margin-left: 18px; */
-margin-top: 40px;
-font-size: 15px;
-text-align: left;
-text-decoration: underline;
+margin-top: -15px;
+font-size: 16px;
+/* text-align: left; */
+text-decoration: none;
 
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
 margin-left: -25px;
-text-align: left;
 font-size: 14px;
 
 }
 
 section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
-margin-left: -25px;
+margin-left: -22px;
 font-size: 14px;
 
 }
@@ -1782,35 +1964,35 @@ section#announcements figure:nth-of-type(4) {
   margin-top: 30px;
   text-align: left;
   background-color: whitesmoke;
-  border-radius: 8px;
+  
 }
 
 .announce {
   margin-left: 5px;
-  font-family: Roboto;
+  font-family: Kalam;
 }
 .improved {
   padding: 0;
-  margin-top: 16px;
-  margin-left: 20px;
+  margin-top: 9px;
+  margin-left: 10px;
   height: 20px;
-  font-family: Roboto;
+  font-family: Kalam;
   font-size: 19px;
 }
 .date {
   padding: 0;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
   height: 14px;
   width: 30%;
-  font-family: Roboto;
+  font-family: Kalam;
   font-size: 13px;
 }
 .content {
   padding: 0;
-  margin-left: 20px;
+  margin-left: 10px;
   width: 83%;
-  font-family: Roboto;
+  font-family: Kalam;
 }
 
 /* LANDSCAPE PHOTO SECTION */
@@ -1820,7 +2002,7 @@ section#landScapes {
     width: 100%;
     height: 320px;
     background-color: rgba(96, 121, 97, 0.767);
-    border-radius: 8px;
+    
   }
 
   div#landScapeBlock {
@@ -1837,7 +2019,7 @@ section#landScapes {
     margin-right: 4%;
     margin-left: 4%;
     margin-top: 20px;
-    border-radius: 8px;
+    
     background-image: url(pool14.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1855,7 +2037,7 @@ div#landScapeBlock div:nth-of-type(3) {
     height: 260px;
     margin-right: 4%;
     margin-top: 20px;
-    border-radius: 8px;
+    
     background-image: url(tree.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1869,25 +2051,25 @@ div#landScapeBlock div:nth-of-type(3) {
 main#faq-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
-    height: 1450px;
+    width: 97%;
+    height: 2120px;
 }
 div#faq-info {
     width: 100%;
-    height: 1900px;
+    height: 2050px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#faq-info div:nth-of-type(1) {
     /* float: left; */
     width: 100%;
-    height: 1900px;
+    height: 2050px;
     margin-top: 0px;
     margin-left: 0%;
     background-color: whitesmoke;
     /* text-align: center; */
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 h2#faq-title {
     width: 25%;
@@ -1909,73 +2091,70 @@ div#faq-info div:nth-of-type(2) {
 main#update-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 97%;
     height: 1950px;
 }
 div#update1-info {
     width: 100%;
     height: 450px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update1-info div:nth-of-type(1) {
     display: none;
 }
 div#update1-info div:nth-of-type(2) {
-    /* float: right; */
     width: 100%;
     height: 460px;
     margin-top: 0px;
     margin-right: 0%;
     background-color: whitesmoke;
-    /* text-align: center; */
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 .update-title {
     margin-top: 20px;
     margin-left: 10px;
     height: 20px;
     text-decoration: underline;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 19px;
  }
 .update-date {
     margin-top: 40px;
     margin-left: 10px;
     height: 14px;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 13px;
  }
 .update-content {
     margin-left: 10px;
-    font-family: Roboto;
+    font-family: Kalam;
     font-size: 14px;
 }
 div#update2-info {
     width: 100%;
     height: 275px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update2-info div:nth-of-type(1) {
     display: none;
 }
 div#update2-info div:nth-of-type(2) {
-    /* float: right; */
     width: 100%;
     height: 275px;
     margin-top: 0px;
     margin-right: 0%;
     background-color: whitesmoke;
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 div#update3-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update3-info div:nth-of-type(1) {
     float: left;
@@ -1986,14 +2165,14 @@ div#update3-info div:nth-of-type(1) {
     margin-right: 1.25%;
     background-color: whitesmoke;
     text-align: center;
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 div#update4-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update4-info div:nth-of-type(1) {
     float: left;
@@ -2003,14 +2182,14 @@ div#update4-info div:nth-of-type(1) {
     margin-left: 1.25%;
     margin-right: 1.25%;
     background-color: whitesmoke;
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 div#update5-info {
     width: 100%;
     height: 300px;
     background-color: rgb(181, 201, 180);
-    border-radius: 8px;
+    
 }
 div#update5-info div:nth-of-type(1) {
     float: left;
@@ -2020,8 +2199,8 @@ div#update5-info div:nth-of-type(1) {
     margin-left: 1.25%;
     margin-right: 1.25%;
     background-color: whitesmoke;
-    font-family: Roboto;
-    border-radius: 8px;
+    font-family: Kalam;
+    
 }
 
 /* HOA AND MGMT STYLES */
@@ -2029,30 +2208,31 @@ div#update5-info div:nth-of-type(1) {
 main#mgmt-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 97%;
     height: 1950px;
 }
 div#mgmt-info {
     width: 100%;
-    height: 2215px;
+    height: 2040px;
     background-color: rgba(0, 0, 0, 0.048);
-    border-radius: 8px;
+    
 }
 div#mgmt-info div:nth-of-type(1) {
-    /* float: left; */
     width: 90%;
-    height: 2150px;
+    height: 1980px;
     margin-top: 30px;
     margin-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: whitesmoke;
     text-align: center;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .mgmt-para {
     font-size: 14px;
-    width: 85%;
-    padding-left: 65px;
+    width: 100%;
+    margin-top: -30px;
 }
 section#mgmt-landScapes {
     display: none;
@@ -2072,16 +2252,16 @@ div#mgmt-landScapeBlock div:nth-of-type(2) {
 main#contact-main {
     margin: 0 auto;
     padding-bottom: 150px;
-    width: 85%;
+    width: 97%;
     height: 1350px;
 }
 
 section#contact {
-    height:835px;
-    padding-left: 8%;
-    padding-right: 8%;
+    height:845px;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: rgba(238, 232, 232, 0.856);
-    border-radius: 8px;
+    
 }
 section#contact figure:nth-of-type(1) {
     /* float: left; */
@@ -2092,18 +2272,18 @@ section#contact figure:nth-of-type(1) {
     margin-top: 20px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   section#contact figure:nth-of-type(2) {
     /* float: left; */
     width: 100%;
-    height: 297px;
+    height: 312px;
     margin-right: 5%;
     margin-left: 0;
     margin-top: 5px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
 
   section#contact figure:nth-of-type(3) {
@@ -2115,7 +2295,7 @@ section#contact figure:nth-of-type(1) {
     margin-top: 5px;
     background-color: whitesmoke;
     text-align: center;
-    border-radius: 8px;
+    
   }
   .contact1 {
       font-family: Roboto;
@@ -2123,7 +2303,7 @@ section#contact figure:nth-of-type(1) {
   }
   .title-placement1 {
       margin-top: 14px;
-      text-decoration: underline;
+      text-decoration: none;
       font-family: Roboto;
       font-size: 18px;
   }
@@ -2137,19 +2317,19 @@ section#contact figure:nth-of-type(1) {
       color: rgba(0, 0, 0, 0.555);
   }
   .title-placement2 {
-    margin-top: 14px;
-    text-decoration: underline;
+    margin-top: 17px;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 18px;
 }
 p#questions {
     margin-top: -11px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .title-placement3 {
     margin-top: 14px;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 18px;
 }
@@ -2171,19 +2351,19 @@ p#questions {
       width: 100%;
       height: 545px;
       background-color: rgba(96, 121, 97, 0.767);
-      border-radius: 8px;
+      
   }
   .maps {
       margin-left: 2.5%;
       margin-top: 25px;
-      border-radius: 8px;
+      
   }
 
   /* PROPERTY PAGE STYLES */
 
 main#property {
     padding-bottom: 150px;
-    width: 85%;
+    width: 97%;
     margin: 0 auto;
     height: 960px;
     
@@ -2195,7 +2375,7 @@ section#list-maps {
       padding-left: 3%;
       padding-right: 3%;
       background-color: rgba(100, 30, 30, 0.521);
-      border-radius: 8px;
+      
 }
 section#list-maps figure:nth-of-type(1) {
     /* float: left; */
@@ -2207,13 +2387,13 @@ section#list-maps figure:nth-of-type(1) {
     background-color: whitesmoke;
     text-align: left;
     font-family: Roboto;
-    border-radius: 8px;
+    
 }
 .deeds-maps {
     margin-top: 30px;
     margin-left: 30px;
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.651);
 }
 .docs {
